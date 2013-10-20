@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc2f4b29-aad2-483a-9067-d2bded0d5a89" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="bc2f4b29-aad2-483a-9067-d2bded0d5a89" name="Default" comment="" />
     <ignored path="tuto_blog_2.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/dummy.txt" changelist="bc2f4b29-aad2-483a-9067-d2bded0d5a89" time="1382279174010" ignored="false" />
@@ -12,6 +9,7 @@
     <file path="/a.php" changelist="bc2f4b29-aad2-483a-9067-d2bded0d5a89" time="1382273674054" ignored="false" />
     <file path="/Dummy.txt" changelist="bc2f4b29-aad2-483a-9067-d2bded0d5a89" time="1382279144259" ignored="false" />
     <file path="/.gitignore" changelist="bc2f4b29-aad2-483a-9067-d2bded0d5a89" time="1382279296883" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="bc2f4b29-aad2-483a-9067-d2bded0d5a89" time="1382279707282" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
