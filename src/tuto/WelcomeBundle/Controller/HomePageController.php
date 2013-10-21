@@ -6,8 +6,9 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class HomepageController extends Controller
 {
-    public function indexAction($name)
+    public function indexAction($page)
     {
-        return $this->render('tutoWelcomeBundle:Homepage:index.html.twig', array('name' => $name));
+
+        return $this->render('tutoWelcomeBundle:Homepage:index.html.twig', array('page' => $page));
     }
 }
