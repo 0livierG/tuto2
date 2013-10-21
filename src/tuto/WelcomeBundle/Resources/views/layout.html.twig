@@ -3,20 +3,29 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     {% block stylesheets %}
-        <link rel="stylesheet" href="{{ asset('bundles/tutowelcome/css/welcome.css') }}" type="text/css" media="all" />
+        <link rel="stylesheet" href="{{ asset('bundles/tutoWelcome/css/welcome.css') }}"  type="text/css" media="all" />
     {% endblock %}
     <title>Tutoriel Symfony2 : {% block title %}{% endblock %}</title>
 </head>
 <body>
 <div id="container">
     <header>
-        <a href="{{ path('tutoWelcomeBundle_homepage') }}" title="Retour à l'accueil">Tutoriel Symfony2</a>
-        <p>Bonjour et bienvenue dans ce tutoriel pour Symfony2</p>
+        <a href="{{ path('homepage') }}" title="Retour à l'accueil">Tutoriel Symfony2</a>
+        <p>
+            {% set nom = '' %}
+            {% for key, flash in app.session.getFlashBag() %}
+                {% if flash and key=='nom' %}
+
+                    {% set nom = flash[0] %}
+                    Bienvenue à toi {{ nom  }} !
+                {% endif %}
+            {% endfor %}
+        </p>
     </header>
 
-    <div id="content">
-        {% block content %}{% endblock %}
-    </div>
+    {% block content %}
+
+    {% endblock %}
     <footer>
     </footer>
 </div>

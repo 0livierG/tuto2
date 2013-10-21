@@ -12,7 +12,7 @@ html, body, header, footer, article, nav, section, aside, time, h1, h2, h3, p, a
 
 /* BASICS */
 BODY {
-    background : #FFF;
+    background : #EEE;
     border-top : 5px solid #DB0202;
     color : #444;
 }
