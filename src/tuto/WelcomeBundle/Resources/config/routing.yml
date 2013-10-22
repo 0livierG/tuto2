@@ -10,4 +10,7 @@ whoami:
   defaults: { _controller: tutoWelcomeBundle:Homepage:whoAmI, nom : ''}
   requirements :
     page : \w+
+contact:
+  pattern: /contact
+  defaults: { _controller: tutoWelcomeBundle:Contact:index}
 

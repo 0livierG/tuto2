@@ -12,12 +12,12 @@
     <header>
         <a href="{{ path('homepage') }}" title="Retour à l'accueil">Tutoriel Symfony2</a>
         <p>
-            {% set nom = '' %}
+            {% set notice = '' %}
             {% for key, flash in app.session.getFlashBag() %}
-                {% if flash and key=='nom' %}
+                {% if flash and key=='notice' %}
 
-                    {% set nom = flash[0] %}
-                    Bienvenue à toi {{ nom  }} !
+                    {% set notice = flash[0] %}
+                    {{ notice  }} !
                 {% endif %}
             {% endfor %}
         </p>
